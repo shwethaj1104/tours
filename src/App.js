@@ -32,10 +32,10 @@ function App() {
     fetchTours();
   },[])
 
-  if(tours.length !==0){
+  if(loading){
     return (
       <main>
-        {(loading  && tours.length !== 0) ? <Loading /> : <Tours tours={tours} removeTour={removeTour}/>}
+         <Loading /> 
       </main>
     )
   }
@@ -50,6 +50,11 @@ if(tours.length ===0){
     </main>
   )
 }
+return(
+  <main>
+    <Tours tours={tours} removeTour={removeTour}/>
+  </main>
+)
 }
 
 export default App
