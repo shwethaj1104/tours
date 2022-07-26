@@ -158,6 +158,28 @@ main {
 }
 .loading {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading_animation{
+  height: 4rem;
+  width: 4rem;
+  border: 0.4rem solid black;
+  border-radius: 50%;
+  border-top:0;
+  border-right:0;
+  border-left:0;
+  animation: loader 0.9s linear infinite;
+  margin-right:5rem ;
+}
+@keyframes loader{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
 }
 .title {
   text-align: center;
