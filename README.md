@@ -1,6 +1,6 @@
 # Tour Guider
 
-Application developed on React.js
+Application developed on React.js.
 
 Available at https://tours-swart.vercel.app/
 
