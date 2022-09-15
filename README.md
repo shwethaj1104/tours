@@ -1,4 +1,4 @@
-# Tour Guider
+# Tour Guider App
 
 Application developed on React.js.
 
