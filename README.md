@@ -1,6 +1,6 @@
 # Tour Guider
 
-Application developed on React.js version 18.
+Application developed on React.js latest version 18.
 
 Checkout Application at : https://tours-swart.vercel.app/
 
