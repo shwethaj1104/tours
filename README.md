@@ -1,4 +1,4 @@
-# Tour Guide
+# Tour Guide App
 
 Application developed on React.js latest version 18.
 
